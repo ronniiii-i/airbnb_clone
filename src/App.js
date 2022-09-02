@@ -2,6 +2,7 @@ import group from './images/group.png';
 import './App.css';
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
+import Card from "./components/Card"
 
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
           <Navbar />
           <main>
             <Hero />
+            <Card />
           </main>
       </div>
   )
